@@ -9,7 +9,8 @@
 
  
 <br>
-LEDE is a large-scale, AI-generated news detection benchmark dataset comprising 300K articles and approximately 4M sentences.It addresses the limitations of existing benchmarks by providing broader generator diversity and news-specific coverage across 21 state-of-the-art LLMs, two languages, and 17 news categories. This makes LEDE an invaluable resource for advancing AI-generated text detection research, with the dataset publicly available for future studies. You can find LEDE's AI-generated articles in the dataset repository. It includes samples spanning multiple generation strategies and news categories. For access to the entire dataset, please refer to the link above. [link to be added]
+LEDE is a large-scale benchmark dataset for AI-generated news detection, comprising over 337K articles and approximately 4.3M sentences. It addresses the limitations of existing benchmarks by providing broader generator diversity and news-specific coverage across 21 state-of-the-art LLMs, two languages, and 17 news categories. LEDE serves as a valuable resource for advancing research on AI-generated text detection, cross-model generalization, multilingual robustness, and domain-aware evaluation.The dataset repository includes AI-generated news articles spanning multiple prompting strategies and news categories. For access to the full dataset, please refer to the Hugging Face repository below:
+https://huggingface.co/datasets/NeurIPS-2026-LEDE/LEDE-dataset
 <br>
 <br>
 
@@ -82,7 +83,7 @@ To access the LEDE dataset, please visit the following link.
 Please download all of the following datasets and store them in the human-written/ directory.
 - [AI-Hub Dataset](https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=data&dataSetSn=97)
 - [Newsroom Dataset](https://huggingface.co/datasets/lil-lab/newsroom) 
-- Ayoobi Dataset (link to be added)
+- [Ayoobi et al.](https://dl.acm.org/doi/10.1145/3720553.3746665)
 - [ISOT Fake News Dataset](https://www.kaggle.com/datasets/rahulogoel/isot-fake-news-dataset)
 
 #### 1.3.Mapping Human-written News
@@ -155,7 +156,7 @@ Each file prints metrics in the following format:
 The aggregated per-file metrics are saved to `binoculars_csv_folder_metrics.csv` by default.
 <br>
 
-### 2-3. Additional Models
+#### 2-3. Additional Models
 
 In addition to the two base models described above, other AI-generated text detection models can be explored through their official GitHub repositories.
 
@@ -173,12 +174,6 @@ Supervised Models
 - [Easy2Hard (2025)](https://github.com/tmlr-group/Easy2Hard)
 
 
-
-<br>
-
-## 💡 Maintenance
-This repository is maintained by [Chaewon Kang](https://sites.google.com/view/chaewon-kang/) and Seoyoon Jeong. Any feedback, extensions & suggestions are welcome! Please send an email to codnjs3@g.skku.edu.
-<br>
-
+ 
 ## 💡 License
-The HiDF dataset is available under the Creative Commons Attribution-NonCommercial 4.0 International Public License: [https://creativecommons.org/licenses/by-nc/4.0/](https://creativecommons.org/licenses/by-nc/4.0/). The code is released under the MIT license.
+The LEDE dataset is available under the Creative Commons Attribution-NonCommercial 4.0 International Public License: [https://creativecommons.org/licenses/by-nc/4.0/](https://creativecommons.org/licenses/by-nc/4.0/). The code is released under the MIT license.
