@@ -73,9 +73,7 @@ LEDE is a large-scale multilingual benchmark for AI-generated news detection, de
 ### 1. Data preparation 
 #### 1.1. Download LEDE Datasets
 To access the LEDE dataset, please visit the following link.
-
-[ Hugging face url to be added]
-
+* https://huggingface.co/datasets/NeurIPS-2026-LEDE/LEDE-dataset
 
 > The LEDE dataset is available under the [Creative Commons Attribution-NonCommercial 4.0 International Public License](https://creativecommons.org/licenses/by-nc/4.0/). Any violation of this license agreement may result in legal action. By downloading the HiDF, the user agrees to the terms of the CC BY-NC 4.0 license.
 
