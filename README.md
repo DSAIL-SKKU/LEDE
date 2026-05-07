@@ -37,48 +37,17 @@ LEDE is a large-scale multilingual benchmark for AI-generated news detection, de
 
 ### 📈 LEDE Dataset Statistics
 
-#### Dataset Coverage
+#### AI-generated News
+  - \# of LLMs : **21**
+  - \# of Languages : **2 (Eng, Kor)**
+  - \# of Articles : **337,322**
+  - \# of Sentences : **4,309,153**
+  - \# of News Category : **17**
+  - \# of News Strategy : **4 (sc, ib, ng, we)** 
+  - \# English Sentences : **2,393,518**
+  - \# Korean Sentences : **1,915,635**
 
-| Component | Scale |
-|---|---:|
-| **LLMs** | **21** |
-| **News Categories** | **17** |
-| **Languages** | **2** (`Eng`, `Kor`) |
-| **Generation Strategies** | **4** |
-<br>
-
-#### Statistics
-
-| Split | Articles | Sentences | English Sentences | Korean Sentences |
-|---|---:|---:|---:|---:|
-| **AI-generated** | 337,322 | 4,309,153 | 2,393,518 | 1,915,635 |
-| **Human-written** | 244,262 | 7,059,958 | 5,845,938 | 1,214,020 |
-<br>
-
-#### AI-Gen News Strategy Distribution
-
-| Strategy | Articles | Sentences |
-|---|---:|---:|
-| **SC** (Sheep’s Clothing) | 99,655 | 1,275,933 |
-| **IB** (Information Blending) | 75,460 | 866,438 |
-| **NG** (Narrative Generation) | 83,320 | 1,139,081 |
-| **WE** (Writing Enhancement) | 78,887 | 1,027,701 |
-| **Total** | **337,322** | **4,309,153** |
-<br>
-
-#### AI-Gen News Category Distribution
-
-| Category | arts, culture, entertainment and media | conflict, war and peace | crime, law and justice | disaster, accident and emergency incident | economy, business and finance |        education |      environment |           health |   human interest |
-| -------- | -------------------------------------: | ----------------------: | ---------------------: | ----------------------------------------: | ----------------------------: | ---------------: | ---------------: | ---------------: | ---------------: |
-| # News (Sentence)   |                       32,111 (454,450) |        14,804 (223,531) |       32,307 (430,483) |                          13,034 (162,600) |              38,923 (514,214) | 21,866 (252,621) | 14,042 (158,646) | 23,835 (288,276) | 11,594 (171,088) |
-<br>
-
-| Category |           labour | lifestyle and leisure | politics and government |       religion | science and technology |          society |            sport |        weather |
-| -------- | ---------------: | --------------------: | ----------------------: | -------------: | ---------------------: | ---------------: | ---------------: | -------------: |
-| # News (Sentence) | 18,604 (207,569) |      16,191 (181,333) |        32,642 (460,835) | 5,925 (83,169) |       24,462 (287,674) | 16,353 (183,685) | 17,655 (215,904) | 2,974 (33,075) |
-
-<br>
-
+ 
 ### 📑 Configuration of **LEDE** Metadata
 
 This dataset contains human-written source articles and AI-generated news articles, along with metadata describing their origin and generation process.
@@ -91,7 +60,7 @@ Below is an example from the Claude_haiku_3.5_Eng.csv file:
 | —        |—        |—        | —        |—        | —        | —        | —        | —        |—        | —        |
 | ALQST says at least-can lead to prison.   | nan  | Travis Scott's Astroworld Festival  ... | Astroworld Festival Tragedy Key Facts:-...  | Travis Scott\'s Astroworld Festival Tragedy Claims Eight Lives... | disaster, accident and emergency incident | Claude_Sonnet_4.5  | sc  | eng   | 14  | 280 |
 
-### Fields
+#### Fields
 
 | Field | Description |
 |---|---|
