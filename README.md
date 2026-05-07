@@ -70,12 +70,12 @@ LEDE is a large-scale multilingual benchmark for AI-generated news detection, de
 
 | Category | arts, culture, entertainment and media | conflict, war and peace | crime, law and justice | disaster, accident and emergency incident | economy, business and finance |        education |      environment |           health |   human interest |
 | -------- | -------------------------------------: | ----------------------: | ---------------------: | ----------------------------------------: | ----------------------------: | ---------------: | ---------------: | ---------------: | ---------------: |
-| News (Sentence)   |                       32,111 (454,450) |        14,804 (223,531) |       32,307 (430,483) |                          13,034 (162,600) |              38,923 (514,214) | 21,866 (252,621) | 14,042 (158,646) | 23,835 (288,276) | 11,594 (171,088) |
+| # News (Sentence)   |                       32,111 (454,450) |        14,804 (223,531) |       32,307 (430,483) |                          13,034 (162,600) |              38,923 (514,214) | 21,866 (252,621) | 14,042 (158,646) | 23,835 (288,276) | 11,594 (171,088) |
 <br>
 
 | Category |           labour | lifestyle and leisure | politics and government |       religion | science and technology |          society |            sport |        weather |
 | -------- | ---------------: | --------------------: | ----------------------: | -------------: | ---------------------: | ---------------: | ---------------: | -------------: |
-| News (Sentence) | 18,604 (207,569) |      16,191 (181,333) |        32,642 (460,835) | 5,925 (83,169) |       24,462 (287,674) | 16,353 (183,685) | 17,655 (215,904) | 2,974 (33,075) |
+| # News (Sentence) | 18,604 (207,569) |      16,191 (181,333) |        32,642 (460,835) | 5,925 (83,169) |       24,462 (287,674) | 16,353 (183,685) | 17,655 (215,904) | 2,974 (33,075) |
 
 <br>
 
@@ -87,9 +87,9 @@ Below is an example from the Claude_haiku_3.5_Eng.csv file:
 
 | human_rid | human_fid | title | summary | ai_article | domain | model | strategy | language | num_sentences | num_words |
 | --------- | ----- | ------- | ---------- | ------ | ----- | -------- | -------- | ------------- | --------- | --------- |
-| If ever there was-wonderful to the city.    | It doesn t matter-his service. FOX News     | Bronze Statue Honors Dedicated ...     | If ever there was a man worthy of a grand birthday bash in San Francisco ...    | Bronze Statue Honors Dedicated City Worker's Service ...     | arts, culture, entertainment and media  | Claude_haiku_3.5  | ib	   | eng    | 10  | 236 |
+| If ever there was-wonderful to the city.    | It doesn t matter-his ... News     | Bronze Statue Honors Dedicated ...     | If ever there was a man worthy of a grand birthday ...    | Bronze Statue Honors Dedicated City  ...     | arts, culture, entertainment and media  | Claude_haiku_3.5  | ib	   | eng    | 10  | 236 |
 | —        |—        |—        | —        |—        | —        | —        | —        | —        |—        | —        |
-| ALQST says at least-can lead to prison.   | nan  | Travis Scott's Astroworld Festival Tragedy Claims Eight ... | Astroworld Festival Tragedy Key Facts:\n- Casualties: 8 people died ...  | Travis Scott\'s Astroworld Festival Tragedy Claims Eight Lives... | disaster, accident and emergency incident | Claude_Sonnet_4.5  | sc  | eng   | 14  | 280 |
+| ALQST says at least-can lead to prison.   | nan  | Travis Scott's Astroworld Festival  ... | Astroworld Festival Tragedy Key Facts:-...  | Travis Scott\'s Astroworld Festival Tragedy Claims Eight Lives... | disaster, accident and emergency incident | Claude_Sonnet_4.5  | sc  | eng   | 14  | 280 |
 
 ### Fields
 
