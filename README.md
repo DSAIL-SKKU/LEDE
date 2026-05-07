@@ -48,19 +48,7 @@ LEDE is a large-scale multilingual benchmark for AI-generated news detection, de
   - \# Korean Sentences : **1,915,635**
 
  
-### 📑 Configuration of **LEDE** Metadata
-
-This dataset contains human-written source articles and AI-generated news articles, along with metadata describing their origin and generation process.
-
-Below is an example from the Claude_haiku_3.5_Eng.csv file:
-
-| human_rid | human_fid | title | summary | ai_article | domain | model | strategy | language | num_sentences | num_words |
-| --------- | ----- | ------- | ---------- | ------ | ----- | -------- | -------- | ------------- | --------- | --------- |
-| If ever there was-wonderful to the city.    | It doesn t matter-his ... News     | Bronze Statue Honors Dedicated ...     | If ever there was a man worthy of a grand birthday ...    | Bronze Statue Honors Dedicated City  ...     | arts, culture, entertainment and media  | Claude_haiku_3.5  | ib	   | eng    | 10  | 236 |
-| —        |—        |—        | —        |—        | —        | —        | —        | —        |—        | —        |
-| ALQST says at least-can lead to prison.   | nan  | Travis Scott's Astroworld Festival  ... | Astroworld Festival Tragedy Key Facts:-...  | Travis Scott\'s Astroworld Festival Tragedy Claims Eight Lives... | disaster, accident and emergency incident | Claude_Sonnet_4.5  | sc  | eng   | 14  | 280 |
-
-#### Fields
+### 📑 Configuration of **LEDE** Metadata 
 
 | Field | Description |
 |---|---|
@@ -75,8 +63,6 @@ Below is an example from the Claude_haiku_3.5_Eng.csv file:
 | `language` | Language of the generated article (Kor or Engs) |
 | `num_sentences` | Number of sentences in the generated article |
 | `num_words` | Number of words in the generated article |
-
-
 
 <br>
 
