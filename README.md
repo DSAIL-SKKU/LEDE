@@ -68,25 +68,14 @@ LEDE is a large-scale multilingual benchmark for AI-generated news detection, de
 
 #### AI-Gen News Category Distribution
 
-| Category | Scale |
-|---|---:|
-| **arts, culture, entertainment and media** |  32,111(454,450) |
-| **conflict, war and peace** |  14,804(223,531) |
-| **crime, law and justice** | 32,307(430,483) |
-| **disaster, accident and emergency incident** |  13,034(162,600) |
-| **economy, business and finance**            |  38,923(514,214) |
-| **education** |  21,866(252,621) |
-| **environment** | 14,042(158,646) |
-| **health** |  23,835(288,276) |
-| **human interest**|  11,594(171,088) |
-| **labour** |  18,604(207,569) |
-| **lifestyle and leisure** | 16,191(181,333) |
-| **politics and government** |  32,642(460,835) |
-| **religion**  |  5,925(83,169) |
-| **science and technology** |  24,462(287,674) |
-| **society** | 16,353(183,685) |
-| **sport** |  17,655(215,904) |
-| **weather** |  2,974(33,075) |
+| Category | arts, culture, entertainment and media | conflict, war and peace | crime, law and justice | disaster, accident and emergency incident | economy, business and finance |        education |      environment |           health |   human interest |
+| -------- | -------------------------------------: | ----------------------: | ---------------------: | ----------------------------------------: | ----------------------------: | ---------------: | ---------------: | ---------------: | ---------------: |
+| News (Sentence)   |                       32,111 (454,450) |        14,804 (223,531) |       32,307 (430,483) |                          13,034 (162,600) |              38,923 (514,214) | 21,866 (252,621) | 14,042 (158,646) | 23,835 (288,276) | 11,594 (171,088) |
+<br>
+
+| Category |           labour | lifestyle and leisure | politics and government |       religion | science and technology |          society |            sport |        weather |
+| -------- | ---------------: | --------------------: | ----------------------: | -------------: | ---------------------: | ---------------: | ---------------: | -------------: |
+| News (Sentence) | 18,604 (207,569) |      16,191 (181,333) |        32,642 (460,835) | 5,925 (83,169) |       24,462 (287,674) | 16,353 (183,685) | 17,655 (215,904) | 2,974 (33,075) |
 
 <br>
 
