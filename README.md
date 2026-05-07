@@ -76,7 +76,7 @@ To access the LEDE dataset, please visit the following link.
 [ Hugging face url to be added]
 
 
-The LEDE dataset is available under the [Creative Commons Attribution-NonCommercial 4.0 International Public License](https://creativecommons.org/licenses/by-nc/4.0/). Any violation of this license agreement may result in legal action. By downloading the HiDF, the user agrees to the terms of the CC BY-NC 4.0 license.
+> The LEDE dataset is available under the [Creative Commons Attribution-NonCommercial 4.0 International Public License](https://creativecommons.org/licenses/by-nc/4.0/). Any violation of this license agreement may result in legal action. By downloading the HiDF, the user agrees to the terms of the CC BY-NC 4.0 license.
 
 #### 1.2. Download Human-written News Datasets
 Please download all of the following datasets and store them in the human-written/ directory.
@@ -153,7 +153,7 @@ Each file prints metrics in the following format:
 ```
 
 The aggregated per-file metrics are saved to `binoculars_csv_folder_metrics.csv` by default.
-
+<br>
 
 ### 2-3. Additional Models
 
